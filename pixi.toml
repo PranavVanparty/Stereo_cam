@@ -1,0 +1,18 @@
+[workspace]
+authors = ["Pranav <pvanparty@gmail.com>"]
+channels = ["https://prefix.dev/robostack-lyrical"]
+name = "ros_ws"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ros-lyrical-desktop = ">=0.13.0,<0.14"
+colcon-common-extensions = ">=0.3.0,<0.4"
+compilers = ">=2.0.0,<3"
+cmake = ">=4.4.4,<5"
+pkg-config = ">=0.29.2,<0.30"
+ninja = ">=1.13.2,<2"
+ros-lyrical-turtlesim = ">=1.10.9,<2"
+ros-lyrical-ros-gz = ">=3.0.9,<4"
